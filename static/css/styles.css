@@ -1,0 +1,86 @@
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            max-height: 100vh;
+        }
+        .header {
+            text-align: center;
+            color: #1f0045;
+            height: 20px;
+        }
+        .sidebar {
+            height: 88vh;
+            width: 250px;
+            float: left;
+            background-color: #f1f1f1;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        .sidebar a {
+            padding: 14px;
+            text-decoration: none;
+            font-size: 15px;
+            color: black;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: beige;
+        }
+        .content {
+            width: auto;
+            margin-left: 250px;
+            padding: 20px;
+            color: #1f0045;
+        }
+        hr{
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            height: 1px;
+            border: none;
+        }
+        .hr2{
+            background-color: #f1f1f1;
+            border: none;
+        }
+        form {
+            max-width: 600px;
+            margin-top: 10px;
+            color: #1f0045;
+        }
+        label {
+            display: inline-block;
+            width: 200px; /* Adjust width as needed */
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 200px; /* Adjust width as needed */
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f1f1f1; /* Set background color */
+            border: none;
+        }
+         input[type="submit"],
+        input[type="button"] {
+            padding: 5px 20px;
+            background-color: #1f0045;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            text-decoration: underline; /* Underline text */
+            margin-top: 20px; /* Add margin to separate buttons */
+            width: 100px;
+        }
+        input[type="submit"]:hover{
+            background-color: green;
+        }
+        input[type="button"]:hover {
+            background-color: red;
+        }
+        .button-container {
+            text-align: center; /* Center align the button container */
+        }
+         input[type="submit"] {
+            margin-right: 30px; /* Separate the buttons */
+        }

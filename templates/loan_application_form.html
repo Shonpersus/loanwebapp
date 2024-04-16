@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Management System</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+
+<header class="header">
+    <p><b>SmallCashPro</b></p>
+</header>
+<hr>
+<div class="sidebar">
+    <a href="home.html"><b>Home</b></a>
+    <div style="padding-left: 20px;">
+        <a href="loan_application_form.html"><b>Loan Application Form</b></a>
+        <a href="#"><b>Approved Loans</b></a>
+        <a href="#"><b>Rejected Loans</b></a>
+        <a href="#"><b>All Loan Applications</b></a>
+    </div>
+    <a href="#"><b>Settings</b></a>
+</div>
+
+<div class="content">
+    <p><b>Loan Application Form</b></p>
+    <hr class="hr2">
+    <!-- Your loan application form goes here -->
+    <form action="#" method="post">
+        <label for="loan_type">Loan Type</label>
+        <input type="text" id="loan_type" name="loan_type" required><br>
+
+        <label for="available_limit">Available Loan Limit</label>
+        <input type="text" id="available_limit" name="available_limit" required><br>
+
+        <label for="desired_amount">Desired Loan Amount</label>
+        <input type="text" id="desired_amount" name="desired_amount" required><br>
+
+        <label for="repayment_period">Repayment Period</label>
+        <input type="text" id="repayment_period" name="repayment_period" required><br>
+
+        <label for="due_date">Due Date</label>
+        <input type="text" id="due_date" name="due_date" required><br>
+
+        <label for="interest_amount">Interest Amount</label>
+        <input type="text" id="interest_amount" name="interest_amount" required><br>
+
+        <label for="total_amount_due">Total Amount Due</label>
+        <input type="text" id="total_amount_due" name="total_amount_due" required><br>
+
+        <label for="loan_reason">Loan Reason</label>
+        <input type="text" id="loan_reason" name="loan_reason" required><br>
+
+        <div class="button-container">
+        <input type="submit" value="Apply">
+        <input type="button" value="Cancel">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
